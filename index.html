@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Homework 17</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+<div class="container ">
+    <button class="add">Add User</button>
+    <div class="blur_container"></div>
+
+    <form action="#" class="hidden show_form" >
+        <div class="f_name">
+            <label for="f_name">Имя
+                <input type="text" name="name" id="f_name">
+            </label>
+        </div>
+        <div class="password">
+            <label for="pass">Пароль
+                <input type="password" name="password" id="pass">
+            </label>
+        </div>
+        <div class="age">
+            <label for="age">Возраст
+                <input type="number" name="age" id="age">
+            </label>
+        </div>
+        <div class="Email">
+            <label for="e_mail">Email
+                <input type="email" name="email" id="e_mail">
+            </label>
+
+        </div>
+        <div class="phone_number">
+            <label for="phone">Номер телефона
+                <input type="tel" name="tel" id="phone">
+            </label>
+        </div>
+        <div class="bank_info">
+            <label for="card">Номер банковской карты
+                <input type="text" name="card" id="card">
+            </label>
+        </div>
+<button type="button" class="save_form_btn">SAVE</button>
+    </form>
+    <div class="users_list">
+    </div>
+    <div class="pop_up">
+    </div>
+</div>
+
+
+<script src="scripts/USERS.js"></script>
+<script src="scripts/js.js"></script>
+</body>
+</html>
